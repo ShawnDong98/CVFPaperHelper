@@ -41,3 +41,8 @@ such as build word cloud
 ![wordcloud](/wordcloud.jpg)
 
 ## Have a good time!
+
+## Add Features
+
+- fix some bugs, it can run directly on Windows.
+- repalce ':'  by '：' and '?' by '？' in the title so that it can properly download these papers
