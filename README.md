@@ -44,5 +44,5 @@ such as build word cloud
 
 ## Add Features
 
-- fix some bugs, it can run directly on Windows.
+- fix some bugs, so it can run on Windows directly.
 - repalce ':'  by '：' and '?' by '？' in the title so that it can properly download these papers
