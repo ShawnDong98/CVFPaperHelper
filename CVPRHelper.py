@@ -27,8 +27,8 @@ class CVPRHelper:
             f"https://openaccess.thecvf.com/CVPR{year}?day=all").text
         open('temp.html', 'w').write(webpage)
         webpage = open('temp.html').read()
-        # pattern = r"<dd>\n\[.*?</div>"
-        pattern = r"<dd>\n\n\[.*?</div>"
+        pattern = r"<dd>\n\[.*?</div>"
+        # pattern = r"<dd>\n\n\[.*?</div>"
         pattern = re.compile(pattern, re.DOTALL)
         # print(f"pattern: {pattern}")
         paper_list = re.findall(pattern, webpage)
